@@ -1,0 +1,442 @@
+
+header{
+    background-color: rgb(252, 252, 252);
+   
+    display: flex  ;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+
+
+
+}
+
+h1{
+    margin-left: 15px;
+    color: rgb(237, 4, 4);
+    position:relative;
+
+}
+h1::selection{
+    color: #000;
+    background-color: red;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(122, 12, 12, 0.918);
+    font-size: large;
+    display: flex inline;
+    margin: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    position: sticky;
+    transition: all 1s ease 0.5s;
+   
+   /* border-bottom: 15px yellow ;
+box-shadow: 20px aqua ;
+*/
+
+}
+nav a:hover{
+    background-color: rgb(0, 0, 0);
+    color: blue;
+    margin:20px;
+    transform: scale(1.1 ,1.1);
+    border-radius: 10px;
+}
+.a{
+background-attachment: fixed;
+min-height: 100vh;
+display: flex block;
+background-image: url(me.jpg);
+width: 100%;
+align-items: center;
+background-size:cover;
+background-position: center;
+z-index: 100;
+
+
+}
+h2{
+    color: rgba(196, 2, 2, 0.737);
+    display: inline-block flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    position:relative;
+    top: 50px;
+       left:5px ; 
+font-size: x-large;
+
+
+
+
+}
+span{
+    color: rgb(227, 2, 2);
+    border:inset 10px red all ;
+    font-family:serif ;
+   
+
+}
+.P{
+    font-size: large;
+    color: rgba(0, 0, 0, 0.991);
+    font-weight: 200PX;
+    position: relative;
+    left: 20px;
+    font-weight: 500;
+   
+    
+}
+*::selection{
+color: #000000;
+background-color: red;
+}
+h4{
+    
+    font-size: large;
+    color: rgb(249, 248, 251);
+    font-weight: 200PX;
+    position: relative;
+    left: 20PX;
+    top: 195px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.79);
+
+}
+.midia{
+    position: relative;
+    display: flex;
+   padding: 20px;
+   margin: 20px;
+  font-size: x-large;
+  transition: all 1s ease 0.5s;
+  top: 150px;
+}
+.midia:hover{
+   background-color: black;
+    padding: 20px;
+    margin: 10px;
+
+}
+a{
+    margin: 10px;
+transition: all 0.3s ease 0.2s;
+margin: 20px;
+}
+
+.i{
+    color: blue;
+}
+.i:hover{
+    transform: scale(1.2,1.2);
+}
+.f{
+    color: rgb(7, 129, 243);
+}
+
+.f:hover{
+    transform: scale(1.2,1.2);
+}
+
+.t{
+color: red;
+}
+
+.t:hover{
+    transform: scale(1.2,1.2);
+}
+
+div .box{
+    width: 70px;
+    background-color: rgb(21, 1, 7);
+    transition: all  1s ease 0.5s ;
+    padding: 10px;
+border-radius: 10px;
+position: relative;
+ display: flex block;
+justify-content: center;
+text-align: center;
+right: -50vw;
+top: -100px;
+
+}
+div .box:hover{
+   transform: scale(1.2 ,1.2);
+    background-color: aqua;
+    border-radius: 15px;
+    
+}
+a.box{
+text-decoration: none;
+color: bisque;
+display: flex;
+align-items: center;
+
+}
+section.b{
+    width: 100%;
+    min-height: 100vh;
+    justify-content:space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0;
+    background:linear-gradient(45deg,#112511,#123456,rgba(111, 128, 255, 0.2))
+
+}
+.ali{
+    font-size: large;
+    display: flex inline-block;
+background:linear-gradient(90deg,#234567,#765432);
+max-width: 35vw;
+flex-wrap:wrap ;
+justify-content:space-between;
+text-align: center;
+min-height: 20vh;
+margin: 35px;
+padding: 20px;
+transition: all 1s ease 0.5s;
+box-shadow: 0 5px 25px rgba(255, 255, 255, 0.3);
+}
+p.icon{
+    margin: 60px;
+    font-size:2.9em ;
+    color: aliceblue;
+
+}
+p.baby{
+     color: rgb(255, 255, 255);
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  
+     
+width: 100px;
+
+text-align: center;
+max-height: 20vh;
+}
+
+.story{
+display: flex;
+background-color: rgba(0, 91, 248, 0.614);
+max-height: 10vh;
+margin-bottom:30px ;
+flex-basis: 20px;
+justify-content: center;
+flex-direction: row;
+
+}
+h5{
+color: antiquewhite;
+}
+
+@media screen and ( min-width:992px )and (max-width:1700px)
+{
+.baby{
+    margin:10px 500px ;
+    
+}
+
+
+
+}
+@media screen and ( max-width:800px ){
+    .baby{
+        display: flex;
+        justify-content: center;
+        min-width: 100vw;
+        
+        padding: 10px;
+    }
+    #d{
+        flex-direction: column;
+      
+    }
+    .ali{
+        margin: 100px;
+           
+    }
+    #ab{
+        translate: -30px;
+    }
+  h5  {
+display: flex;
+width: 100vwpx;
+height: 0px;
+z-index: 10;
+justify-content: center;
+
+
+}
+
+}
+
+
+h5{
+    display: flex ;
+    font-size: large;
+    background-color: blue;
+justify-content: center;
+width: 100vw;
+}
+
+.span{
+    color: rgb(0, 0, 0);
+}
+#cc{
+    color: rgb(255, 1, 1);
+
+}
+.icon{
+    transition: all 0.6666s ease 0.5s;
+
+}
+
+.icon:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgb(0, 0, 0);
+  
+}
+
+#c{
+    min-height: 100vh;
+    font-size: large;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+background:linear-gradient(45deg,rgb(13, 153, 156),rgb(134, 23, 146),rgba(201, 201, 18, 0.6),rgba(172, 23, 23, 0.467))
+}
+.op{
+  max-width: 300px;
+  display: flex;
+  background-position: bottom;
+
+border-radius: 10px;
+transition: all 0.888s ease 0.5s;
+padding: 10px;
+}
+.op:hover{
+    transform: scale(1.1,1.1);
+  
+}
+.ppp{
+    text-decoration: none;
+    display: flex;
+    font-size: x-large;
+    color: aqua;
+    background-color: blue;
+  width: fit-content;
+position: relative;
+right: -40px;
+border-radius: 20px;
+justify-content: center;
+padding: 10px;
+transition: all 0.666s ease 0.5s;
+
+}
+.ppp:hover{
+    transform: scale(1.2,1.2);
+background-color: aqua;
+color: black;
+cursor: pointer;
+margin: 10px;
+}
+.bb{
+   
+ margin: 6px;
+ padding-right:50px ;
+ color: rgb(255, 0, 0);
+ z-index: 1;
+ position: fixed;
+ padding: 10px;
+border: solid rgb(0, 0, 0) 2px;
+border-radius: 50%;
+left: 50vw;
+
+}
+#d{
+    min-height: 100vh;
+   background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+
+.email{
+    background-color: rgb(255, 255, 0);
+    margin: 20px;
+    max-width: 400px;
+    max-height: 50vh;
+    font-size: x-large;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    transition: all 1s ease 0.2s; 
+  box-shadow:0 5px 25px rgba(1 1 1/50%) ;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+   .email:hover{
+    transform: scale(1.1,1.1);
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    
+   }
+  .icons{
+    display: flex;
+    justify-content: center;
+  
+    font-size: 2.9em;
+    margin: 20px;
+    padding:30px ;
+
+  }
+h3{
+    color: aqua;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+.ali:hover{
+    transform: scale(1.2,1.2);
+    background-color: blueviolet;
+}
+footer{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+
+h6{
+    font-size:medium;
+    color: aliceblue;
+  margin-left:20px ;
+}
+.iconn{
+    font-size: x-large;
+    transition: all 1s ease 0.5s;
+}
+body{
+    overflow-x: hidden ;
+}
+
+
+
+
